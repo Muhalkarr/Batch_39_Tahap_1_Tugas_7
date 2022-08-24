@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <title>This is Dummy's Project</title>
+    <link rel="icon" href="assets/icon/globe.png">
+    <link rel="stylesheet" href="assets/style/project-detail.css">
+    <link rel="stylesheet" href="assets/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+
+</head>
+<body>
+
+      {{!-- AARRGHH! Kenapa sih pas di param sylingnya malah ilang?! --}}
+
+  <!-- navigator -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            <img src="assets/icon/globe_small.png" alt="logo">
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link  text-home font-weight-" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-add-project active" aria-current="page" href="add-project">Add Project</a>
+              </li>
+            </ul>
+
+            <a href="contact-me" class="btn btn-contact-me text-white px-3">Contact Me</a>
+          </div>
+        </div>
+    </nav>
+
+  <!-- halaman -->
+  <div class="card-thread">
+    <h1 class="judul-thread">
+      {{title}}
+    </h1>
+
+    <div class="head-thread">
+        <img class="foto-pemandangan" src="assets/image/cyber-attack.jpg" alt="foto-pemandangan">
+        <div class="waktu">
+            <div>
+                <h2>Duration</h2>
+                <h3 class="durasi"> <img class="foto-durasi" src="assets/icon/calendar.png" alt="calendar" style="width: 20px;"> {{distance}}</h3>
+                <h3 class="durasi"> <img class="foto-durasi" src="assets/icon/clock.png" alt="clock" style="width: 20px;"> {{duration}} </h3>
+             </div>
+             <div>
+                <h2>Technologies</h2>
+                  <div class="blog-technologies">
+                        <div class="logo-kiri">
+                         <h3 class="logo-js"> <img class="foto-js" src="assets/icon/reactjs-logo.png" alt="reactjs-logo" style="width: 20px;"> React JS </h3>
+                         <h3 class="logo-js"> <img class="foto-js" src="assets/icon/nodejs-logo.png" alt="nodejs-logo" style="width: 20px;"> Node JS </h3>
+                        </div>
+                        <div class="logo-kanan">
+                         <h3 class="logo-js"> <img class="foto-js" src="assets/icon/javascript-logo.png" alt="js-logo" style="width: 20px;"> JavaScript </h3>
+                         <h3 class="logo-js"> <img class="foto-js" src="assets/icon/socket-io.png" alt="secoketio-logo" style="width: 20px;"> Socket IO </h3>
+                        </div>
+                  </div>
+            </div>
+        </div>    
+    </div>
+    <div class="isi-thread">
+      {{content}}
+    </div>
+  </div>
+
+</body>
+</html>

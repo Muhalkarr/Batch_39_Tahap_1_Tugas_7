@@ -1,0 +1,125 @@
+/* navigasi */
+.text-home{
+    color: rgb(14, 14, 59) !important;
+}
+
+.text-add-project {
+    color: rgb(14, 14, 59) !important;
+    font-weight: bold !important;
+}
+
+.btn-contact-me {
+    background-color: rgb(42, 42, 91) !important;
+}
+
+/* form css */
+.form-bekron{
+    background-color: rgb(218, 218, 218);
+}
+
+form {
+    margin: 5px auto;
+    width: 550px;
+    padding: 10px;
+}
+
+form label {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.add-my-project {
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* .nama {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: rgb(236, 232, 232);
+    border-radius: 5px;
+    border: none;
+} */
+
+.date {
+    display: flex;
+}
+
+.date-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+}
+
+/* .pesan {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: rgb(236, 232, 232);
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    resize: none;
+} */
+
+.checkbox-technologies {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.checkbox-kiri {
+    flex: 50%;
+}
+  
+.checkbox-kanan {
+    flex: 50%;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+    box-shadow: 0px 1px 9px grey;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+/* .input-blog-image-group {
+    width: 530px;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: rgb(236, 232, 232);
+    cursor: pointer;
+} */
+
+/* .attach-icon {
+    display: flex;
+    margin-left :490px;
+} */
+
+/* .button {
+    display: flex;
+    justify-content: end;
+} */
+
+/* form button {
+    background-color: black;
+    color: white;
+    padding: 7px 25px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  } */
+
+.bg-submit {
+    background-color: rgb(42, 42, 91) !important;
+}

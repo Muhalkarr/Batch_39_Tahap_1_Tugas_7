@@ -1,0 +1,67 @@
+/* navigasi */
+.text-home{
+    color: rgb(14, 14, 59) !important;
+}
+
+.text-add-project {
+    color: rgb(14, 14, 59) !important;
+}
+
+.btn-contact-me {
+    background-color: rgb(42, 42, 91) !important;
+}
+
+/* form */
+.halaman-utama {
+    background-color: rgb(218, 218, 218);
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.halaman-utama h1 {
+    text-align: center;
+}
+
+form input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(236, 233, 233);
+}
+
+form div {
+    margin-top: 10px;
+}
+
+form label {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+
+form {
+    margin: 100px auto;
+    width: 550px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.submit-button{
+    display: flex;
+    justify-content: end;
+}
+
+form button {
+    background-color: rgb(42, 42, 91);
+    color: white;
+    margin-top: 10px;
+    margin-left: 74%;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
